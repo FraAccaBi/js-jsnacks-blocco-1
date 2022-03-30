@@ -9,10 +9,11 @@ let myArray = []
 
 let numero = Number(prompt('inserisci un numero'))
 
-if (numero%0 == true) {
-    numero = Number(prompt('inserisci un altro numero'))
+if (numero%2 == 1) {
+    myArray.push(numero);
+    console.log(myArray);
     
 } else {
-    myArray.push(numero)
-    console.log(myArray);
+    numero = Number(prompt('inserisci un altro numero'))
+    
 }
