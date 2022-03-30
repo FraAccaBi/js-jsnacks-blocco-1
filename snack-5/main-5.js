@@ -7,13 +7,13 @@ se è dispari inseriscilo nell’array.
 
 let myArray = []
 
-let numero = Number(prompt('inserisci un numero'))
-
-if (numero%2 == 1) {
-    myArray.push(numero);
-    console.log(myArray);
-    
-} else {
-    numero = Number(prompt('inserisci un altro numero'))
-    
+for (let i = 0; i < 6; i++){
+    let numero = Number(prompt('inserisci un numero'));
+    if (numero%2 == 1) {
+        myArray.push(numero);
+    } 
 }
+
+console.log(myArray);
+
+
