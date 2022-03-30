@@ -9,12 +9,12 @@ for (let i = 0; potenza < 1000; i++){
 
     potenza = Math.pow(2, i);
     potenzeArray.push(potenza);
-    
-
-}
-
-if (potenzeArray[10] > 1000){
+    if (potenzeArray[10] > 1000){
         potenzeArray.pop();
+    }
+
 }
+
+/*  */
 
 console.log(potenzeArray);
