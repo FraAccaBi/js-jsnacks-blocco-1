@@ -9,6 +9,8 @@ const second_number = Number(prompt('inserisci un altro numero'));
 
 if (first_number > second_number) {
     console.log('il primo numero è maggiore');
-} else  {
+} else if (second_number > first_number) {
     console.log('il secondo numero è maggiore');
+} else {
+    console.log('i numeri sono uguali');
 }
