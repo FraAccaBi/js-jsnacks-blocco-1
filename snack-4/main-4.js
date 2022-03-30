@@ -10,7 +10,7 @@ let presenza = false;
 for (let i = 0; i < lista.length; i++) {
     if (nome == lista[i]) {
         console.log('puoi entrare');
-        presence = true;
+        presenza = true;
     }  
     
 }
