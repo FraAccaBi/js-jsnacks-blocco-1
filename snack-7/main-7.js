@@ -16,4 +16,5 @@ for (let i = 0; potenza < 1000; i++){
 if (potenzeArray[10] > 1000){
         potenzeArray.pop();
 }
+
 console.log(potenzeArray);
