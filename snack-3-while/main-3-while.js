@@ -6,8 +6,11 @@ USANDO UN CICLO WHILE
 */
 
 let richieste =0;
+let somma = 0;
 
 while (richieste<10){
     let numero = Number(prompt('inserisci numero'));
+    somma += numero;
     richieste++
 }
+ console.log(somma);
